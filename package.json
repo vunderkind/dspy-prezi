@@ -5,7 +5,7 @@
   "scripts": {
     "build": "slidev build",
     "dev": "slidev --open",
-    "export": "slidev export"
+    "export": "slidev export --format pptx"
   },
   "dependencies": {
     "@slidev/cli": "^0.49.29",
@@ -15,5 +15,8 @@
     "slidev-theme-dracula": "^0.2.0",
     "slidev-theme-takahashi": "^1.0.0",
     "vue": "^3.4.38"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.47.1"
   }
 }
